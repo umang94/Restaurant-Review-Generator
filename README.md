@@ -18,7 +18,7 @@ Generate an API key for yourself at https://developers.zomato.com/api
 
 # Usage
 ## Positive review
-`python3 review_generator.py "YOUR_API_KEY" "Restaurant Name" "postive"`
+`python3 review_generator.py "YOUR_API_KEY" "Restaurant Name" "positive"`
 ## Negative review
 `python3 review_generator.py "YOUR_API_KEY" "Restaurant Name" "negative"`
 
