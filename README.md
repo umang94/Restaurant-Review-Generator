@@ -22,6 +22,10 @@ Generate an API key for yourself at https://developers.zomato.com/api
 ## Negative review
 `python3 review_generator.py "YOUR_API_KEY" "Restaurant Name" "negative"`
 
+# Known Issues
+1. Zomato enforces every review to be at least 140 characters. The generated reviews can occasionally be less than 140 chars
+2. The sentiment of the generated might not be completely align to the requested sentiment
+3. Currently only works for Restaurants in Hyderbad, India. 
 
 
 

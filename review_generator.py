@@ -74,6 +74,7 @@ def getSummarizedReview(reviews):
     print(output_review)
     return summarized_review
 
+
 res_name, res_id = search(restaurant_name,city_id)
 print("Generating a " + required_sentiment + " review for " + res_name)
 reviews = get_reviews(res_id)
